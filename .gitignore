@@ -1,0 +1,17 @@
+# Quartus II temporary compilation databases
+**/db/
+**/incremental_db/
+**/simulation/
+
+# Temporary and backup files
+*.bak
+*.orig
+*.qws
+
+# Ignore verbose compilation reports in output_files, but keep the .sof bitstreams
+**/output_files/*.rpt
+**/output_files/*.summary
+**/output_files/*.done
+**/output_files/*.smsg
+**/output_files/*.jdi
+**/output_files/*.pin
